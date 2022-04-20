@@ -1,7 +1,27 @@
-.post-title{
-    text-align: center;
+
+.logo {
+    font-size: 26px;
+    color: #212121;  
 }
 
-.span{
-    color: blue;
+
+
+.link {
+    font-size: 14px;
+   color:#212121;
+}
+.link:active,
+.link:focus {
+    color:#2196F3;
+}
+
+.post-title{
+    text-align: center;
+    font-size: 44px;
+    text-transform: uppercase;
+}
+footer{
+    background-color: #2F303A;
+    width: 1600px;
+    height: 252px;
 }
