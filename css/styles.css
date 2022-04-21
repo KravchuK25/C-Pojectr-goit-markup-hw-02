@@ -80,3 +80,13 @@ address{
 .auth-nav .tel{
     color: #ffffff60;
 }
+
+.navigation{
+    color: #212121;
+    background-color: #F5F4FA;
+}
+.navigation:hover,
+.navigation:focus {
+    color: #ffffff;
+    background-color: #2196f3;
+}
