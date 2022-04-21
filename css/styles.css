@@ -1,27 +1,79 @@
+/*додатковий колір тексту  #212121*/
+/* основний колір тексту #757575*/
+/* белий #ffffff*/
+/*акцент колльром #2196F3*/
+/* footer amail  color: rgba(255, 255, 255, 0.6);*/
 
+
+
+/*header*/
+body{
+    background-color: #E5E5E5;
+    color: #757575;
+} 
+.paig-header {
+    background-color: #ffffff;
+}
 .logo {
-    font-size: 26px;
-    color: #212121;  
+    color: inherit;
+    color: #2196F3;
 }
-
-
-
-.link {
-    font-size: 14px;
-   color:#212121;
+.span {
+    color: #212121;
 }
-.link:active,
-.link:focus {
-    color:#2196F3;
+ul{
+    list-style: none;
 }
+.site-nav .link{
+color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus{
+    color:#2196f3
+}
+.auth-nav .link{
+    color: #212121;
+}
+.auth-nav .link:hover,
+.auth-nav .link:focus{
+    color: #2196f3;
+}
+/*hero*/
 
-.post-title{
-    text-align: center;
-    font-size: 44px;
-    text-transform: uppercase;
-}
-footer{
+.hero{
     background-color: #2F303A;
-    width: 1600px;
-    height: 252px;
+}
+.hero-title{
+    color: #ffffff;
+}
+.button{
+    color: #ffffff;
+    background-color: #2196F3;
+}
+
+/*main*/ 
+
+.background{
+    background-color: #F5F4FA;
+}
+.title {
+    color: #212121;
+}
+
+/*footer*/
+
+footer{
+background-color:  #2F303A;
+}
+.span-footer{
+    color: #ffffff;
+}
+address{
+    color: #ffffff;
+}
+.auth-nav .maile{
+    color: #ffffff60;
+}
+.auth-nav .tel{
+    color: #ffffff60;
 }
