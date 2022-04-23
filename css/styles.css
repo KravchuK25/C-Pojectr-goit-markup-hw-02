@@ -32,7 +32,7 @@ body{
 }
 .logo:focus,
 .logo:hover{
-    text-decoration: underline solid #2196F3;
+    text-decoration:#2196F3;
 }
 .span {
     color: #212121;
@@ -46,16 +46,17 @@ color: #212121;
 .site-nav .link:hover,
 .site-nav .link:focus{
     color:#2196f3;
-    text-decoration: underline solid #2196F3;
+    text-decoration:#2196F3;
 
 }
 .auth-nav .link{
-    color: #212121;
+    color: #757575;
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus{
     color: #2196f3;
-    text-decoration: underline solid #2196F3;
+    text-decoration:#2196F3;
+
 }
 .site-nav .link.current{
     color: #2196F3;
@@ -69,11 +70,11 @@ color: #212121;
 }
 .hero-title{
     color: #ffffff;
-
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
+    text-transform: uppercase
 }
 .button{
     font-family: inherit;
@@ -96,6 +97,7 @@ color: #212121;
     color: #212121;
     font-weight: 700;
     line-height: 1.14;
+    text-transform: uppercase
 }
 
 .text{
@@ -132,7 +134,7 @@ background-color:  #2F303A;
 }
 .address:hover,
 address .address:focus{
-    text-decoration: underline solid #2196F3;
+    text-decoration:#2196F3;
 }
 footer .auth-nav .link{
     text-decoration: none;
